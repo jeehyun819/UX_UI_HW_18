@@ -141,6 +141,12 @@ nav {
   padding: 2em;
 }
 
+@media only screen and (min-width: 680px) {
+  nav {
+    height: 70px;
+  }
+}
+
 nav ul.primaryNav {
   margin: 6em 0 0 1.3em;
 }
@@ -605,6 +611,7 @@ nav li a:hover {
 
 #csa:hover {
   background-image: url("../images/CSA-h.png");
+  cursor: pointer;
 }
 
 #oneforall {
@@ -618,6 +625,7 @@ nav li a:hover {
 
 #oneforall:hover {
   background-image: url("../images/OneforAll-h.png");
+  cursor: pointer;
 }
 
 #pact {
@@ -631,6 +639,7 @@ nav li a:hover {
 
 #pact:hover {
   background-image: url("../images/PACT-h.png");
+  cursor: pointer;
 }
 
 .workGridArea {

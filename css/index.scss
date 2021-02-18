@@ -129,6 +129,10 @@ nav {
     top: 0;
     background: #fdf5c0;
     padding: 2em;
+
+    @media only screen and (min-width: 680px) {
+        height: 70px;
+    }
     
 
     ul.primaryNav {
@@ -476,6 +480,7 @@ nav {
 
     &:hover {
         background-image: url("../images/CSA-h.png");
+        cursor: pointer;
     }
 }
 
@@ -487,6 +492,7 @@ nav {
 
     &:hover {
         background-image: url("../images/OneforAll-h.png");
+        cursor: pointer;
     }
 }
 
@@ -497,6 +503,7 @@ nav {
 
     &:hover {
         background-image: url("../images/PACT-h.png");
+        cursor: pointer;
     }
 }
 
